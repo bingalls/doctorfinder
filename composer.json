@@ -9,7 +9,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^7.4|^8.0",
         "ext-zip": "*",
         "arcanedev/log-viewer": "8.x",
         "darkghosthunter/laraguard": "^3.0",
