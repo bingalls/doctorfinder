@@ -13,8 +13,8 @@ A Demo that displays doctors. Uses open data from the USA
 * Php 7.4+  # tested on v8.0
 * Node 14+  # tested on v16
 * sqlite3 (and PHP driver) # see also *Custom Database*
-* [git clone docaudit](https://github.com/bingalls/docaudit)
-* `cd docaudit/`
+* [git clone doctorfinder](https://github.com/bingalls/doctorfinder)
+* `cd doctorfinder/`
 * `composer install`
 * `npm install`  # or `yarn`
 * `cp .env.example .env` # and edit
@@ -36,7 +36,7 @@ CSV files are converted to PHP arrays in memory.
 * `php artisan db:seed`
 
 ## Testing
-* `cd docaudit/`
+* `cd doctorfinder/`
 * `composer validate`
 * `composer diagnose`
 * `composer test`
